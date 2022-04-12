@@ -31,7 +31,7 @@ with open("README", 'r') as f:
 setup(name='gpapi2',
       version='0.4.5',
       description='Unofficial python api for google play',
-      long_description=long_description
+      long_description=long_description,
       url='https://github.com/besendorf/googleplay-api',
       author='besendorf',
       author_email='janik@besendorf.org',
