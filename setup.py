@@ -25,16 +25,16 @@ class ProtobufBuilder(_build):
             CURRENT_DIR + "/googleplay.proto"])
         super().run()
 
-setup(name='gpapi',
-      version='0.4.4',
+setup(name='gpapi2',
+      version='0.4.5',
       description='Unofficial python api for google play',
-      url='https://github.com/NoMore201/googleplay-api',
-      author='NoMore201',
-      author_email='domenico.iezzi.201@gmail.com',
+      url='https://github.com/besendorf/googleplay-api',
+      author='besendorf',
+      author_email='janik@besendorf.org',
       license='GPL3',
-      packages=['gpapi'],
+      packages=['gpapi2'],
       package_data={
-          'gpapi': [
+          'gpapi2': [
               'config.py'
               'device.properties',
               'googleplay_pb2.py',
