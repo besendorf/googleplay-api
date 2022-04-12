@@ -25,7 +25,7 @@ class ProtobufBuilder(_build):
             CURRENT_DIR + "/googleplay.proto"])
         super().run()
 
-with open("README", 'r') as f:
+with open("README.md", 'r') as f:
     long_description = f.read()
 
 setup(name='gpapi2',
