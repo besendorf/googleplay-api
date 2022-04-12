@@ -43,10 +43,10 @@ for doc in result:
 ```
 
 For first time logins, you should only provide email and password.
-The module will take care of initalizing the api, upload device information
+The module will take care of initializing the api, upload device information
 to the google account you supplied, and retrieving 
 a Google Service Framework ID (which, from now on, will be the android ID of your fake device).
 
 For the next logins you **should** save the gsfId and the authSubToken, and provide them as parameters
 to the login function. If you login again with email and password, this is the equivalent of
-re-initalizing your android device with a google account, invalidating previous gsfId and authSubToken.
+re-initializing your android device with a google account, invalidating previous gsfId and authSubToken.
